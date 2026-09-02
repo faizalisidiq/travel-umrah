@@ -6,5 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Prp extends Model
 {
-    //
+    protected $guarded = [];
+
+    
 }
